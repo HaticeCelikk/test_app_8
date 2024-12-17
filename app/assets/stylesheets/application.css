@@ -7,4 +7,13 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
+ 
+/* app/assets/stylesheets/application.css */
+/*
+ *= require bootstrap
+ *= require_tree .
+ *= require_self
  */
+ /* bootstrap css */
+
+

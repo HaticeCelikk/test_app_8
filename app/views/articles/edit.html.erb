@@ -1,13 +1,14 @@
 <% content_for :title, "Editing article" %>
-<h1 class= "text-center mt-4">Create new article</h1>
-<%= render "form", article: @article %>
 
+<h1 class="text-center mt-4">Edit user information</h1>
 
-<%# <div>
-  <%= link_to "Show this article", @article %> 
-  <%# <%= link_to "Back to articles", articles_path %> 
-<%# </div> %> 
+<%= render "form", user: @user %> 
 
+<br>
+
+<div>
+  <%= link_to "Back to users", users_path %>
+</div>
 
 
 

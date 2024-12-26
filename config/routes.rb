@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   # sadece belirli indexler istenirse show yapıyorsun
   get "signup", to: "users#new"
+
+  get "login", to: "sessions#new"
+  post "login", to: "sessions#create"
+  delete "logout", to: "sessions#destroy"
 end
